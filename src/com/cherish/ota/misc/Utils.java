@@ -35,6 +35,7 @@ import android.widget.Toast;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import com.cherish.ota.R;
 import com.cherish.ota.UpdatesDbHelper;
 import com.cherish.ota.controller.UpdaterService;
 import com.cherish.ota.model.Update;
@@ -150,6 +151,12 @@ public class Utils {
 
     public static String getDownloadWebpageUrl(String fileName) {
         return String.format(Constants.DOWNLOAD_WEBPAGE_URL, SystemProperties.get(Constants.PROP_DEVICE), fileName);
+    }
+
+    public static String getChangelogURL(Context context) {
+        String device = SystemProperties.get(Constants.PROP_VERSION_CODE,
+                SystemProperties.get(Constants.PROP_DEVICE));
+        return context.getString(R.string.changelog_url, device);
     }
 
     public static void triggerUpdate(Context context, String downloadId) {
