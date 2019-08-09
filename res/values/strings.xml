@@ -121,14 +121,17 @@
 
     <!-- Info section -->
     <string name="extras_category_title">Extras</string>
-    <string name="maintainer_info_title">Maintainer</string>
-    <string name="donate_info_title">Donate</string>
-    <string name="donate_info_summary">Support the development</string>
+    <string name="developer_info_title">Lead Developer</string>
+    <string name="maintainer_info_title">Device Maintainer</string>
+    <string name="donate_info_title">Donate to the developer</string>
+    <string name="donate_info_summary">Support ion\'s development</string>
+    <string name="support_info_title">Donate to the device maintainer</string>
+    <string name="support_info_summary">Support your device maintainer\'s work</string>
     <string name="website_info_title">Website</string>
     <string name="website_info_summary">Visit our website</string>
     <string name="news_info_title">News</string>
     <string name="news_info_summary">Stay informed about updates and other news</string>
-    <string name="forum_info_title">Forum</string>
+    <string name="forum_info_title">XDA Thread</string>
     <string name="forum_info_summary">View forum posts</string>
     <string name="error_open_url">Failed to open URL in browser</string>
 

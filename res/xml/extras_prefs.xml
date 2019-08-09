@@ -20,23 +20,34 @@
             android:layout="@layout/preference_material_settings" />
 
         <Preference
+            android:icon="@drawable/ic_developer_icon"
+            android:key="developer_info"
+            android:summary="hungphan2001"
+            android:title="@string/developer_info_title" />
+
+        <Preference
             android:icon="@drawable/ic_donate_icon"
-            android:key="donate_info"
+            android:key="support_info"
             android:summary="@string/donate_info_summary"
             android:title="@string/donate_info_title"
             android:layout="@layout/preference_material_settings" />
+
+        <Preference
+            android:icon="@drawable/ic_maintainers_icon"
+            android:key="maintainer_info"
+            android:title="@string/maintainer_info_title" />
+
+        <Preference
+            android:icon="@drawable/ic_support_icon"
+            android:key="donate_info"
+            android:summary="@string/support_info_summary"
+            android:title="@string/support_info_title" />
 
         <Preference
             android:icon="@drawable/ic_forum_icon"
             android:key="forum_info"
             android:summary="@string/forum_info_summary"
             android:title="@string/forum_info_title"
-            android:layout="@layout/preference_material_settings" />
-
-        <Preference
-            android:icon="@drawable/ic_maintainers_icon"
-            android:key="maintainer_info"
-            android:title="@string/maintainer_info_title"
             android:layout="@layout/preference_material_settings" />
     </PreferenceCategory>
 </PreferenceScreen>
