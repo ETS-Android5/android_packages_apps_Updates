@@ -139,11 +139,11 @@ public class UpdatesActivity extends UpdatesListActivity {
         androidVersion.setText(String.format(getResources()
                 .getString(R.string.android_version, Build.VERSION.RELEASE)));
         evolutionDevice.setText(String.format(getResources()
-                .getString(R.string.evolution_device, SystemProperties.get("org.evolution.device"))));
+                .getString(R.string.evolution_device, SystemProperties.get("ro.cherish.device"))));
         evolutionMaintainer.setText(String.format(getResources()
-                .getString(R.string.evolution_maintainer, SystemProperties.get("org.evolution.build_maintainer"))));
+                .getString(R.string.evolution_maintainer, SystemProperties.get("ro.cherish.maintainer"))));
         evolutionVersion.setText(String.format(getResources()
-                .getString(R.string.evolution_version, SystemProperties.get("org.evolution.build_version"))));
+                .getString(R.string.evolution_version, SystemProperties.get("ro.cherish.version"))));
         securityVersion.setText(String.format(getResources()
                 .getString(R.string.security_patch_level), Utils.getSecurityPatchLevel()));
         lastUpdateCheck.setText(String.format(getResources()
