@@ -125,7 +125,7 @@
     <string name="error_open_url">Απέτυχε το άνοιγμα της διεύθυνσης URL στο πρόγραμμα περιήγησης</string>
     <!-- OTA section -->
     <string name="android_version">Έκδοση Android: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
-    <string name="evolution_version">Έκδοση Evolution X: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Έκδοση CherishOS: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
     <string name="security_patch_level">Επίπεδο ενημέρωσης ασφαλείας: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Έλεγχος για ενημερώσεις</string>
     <string name="last_successful_check_for_update">Τελευταίος έλεγχος για ενημερώσεις στις: %1$s</string>
@@ -135,6 +135,6 @@
     <string name="advisory_notice_title">Συμβουλευτική ανακοίνωση</string>
     <string name="advisory_notice_content">- Συνιστάται οι χρήστες να χρησιμοποιούν Wi-Fi όποτε είναι δυνατόν για να κατεβάζουν ενημερώσεις. Εάν επιθυμείτε να χρησιμοποιήσετε τη σύνδεση Κινητής Τηλεφωνίας, παρακαλούμε σημειώστε ότι η λήψη δεδομένων μέσω δικτύου κινητής τηλεφωνίας (συμπεριλαμβανομένης της περίπτωσης σε περιβάλλον περιαγωγής), ενδέχεται να σας επιβαρύνει με πρόσθετες χρεώσεις - ελέγξτε με τον πάροχο δικτύου σας σε περίπτωση που έχετε οποιαδήποτε ανησυχία.</string>
     <string name="update_size">Μέγεθος ενημέρωσης: %1$s</string>
-    <string name="notification">Υπάρχει μια νέα ενημέρωση Evolution X διαθέσιμη για τη συσκευή σας!</string>
+    <string name="notification">Υπάρχει μια νέα ενημέρωση CherishOS διαθέσιμη για τη συσκευή σας!</string>
     <string name="download_over_mobiledata_warning">Η λήψη ενημερώσεων μέσω δικτύου κινητής τηλεφωνίας, μετρημένο Wi-Fi, ή κατά την περιαγωγή μπορεί να επιφέρει πρόσθετες χρεώσεις.</string>
 </resources>

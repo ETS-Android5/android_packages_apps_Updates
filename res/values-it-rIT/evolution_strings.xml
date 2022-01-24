@@ -125,7 +125,7 @@
     <string name="error_open_url">Impossibile aprire l\'URL nel browser</string>
     <!-- OTA section -->
     <string name="android_version">Versione Android: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
-    <string name="evolution_version">Versione di Evolution X: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Versione di CherishOS: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
     <string name="security_patch_level">Livello di patch di sicurezza: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Controlla aggiornamenti</string>
     <string name="last_successful_check_for_update">Ultimo controllo per l\'aggiornamento il: %1$s</string>
@@ -135,6 +135,6 @@
     <string name="advisory_notice_title">Avviso consultivo</string>
     <string name="advisory_notice_content">- Si consigliano gli utenti di usare la Wi-Fi quando possibile per scaricare gli aggiornamenti. Se desideri usare la connessione Mobile del Cellulare, sei pregato di notare che scaricare i dati su una Rete Mobile Cellulare (incluso quando in un ambiente di Roaming), potresti incorrere in addebiti aggiuntivi, controlla il tuo Provider di Rete se dovessi avere preoccupazioni.</string>
     <string name="update_size">Aggiorna dimensione: %1$s</string>
-    <string name="notification">Un nuovo aggiornamento è disponibile di Evolution X per il tuo dispositivo!</string>
+    <string name="notification">Un nuovo aggiornamento è disponibile di CherishOS per il tuo dispositivo!</string>
     <string name="download_over_mobiledata_warning">Scaricare gli aggiornamenti su una rete mobile, Wi-Fi misurato o con il roaming, potrebbe causare addebiti aggiuntivi.</string>
 </resources>

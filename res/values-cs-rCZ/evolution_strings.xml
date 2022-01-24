@@ -131,7 +131,7 @@
     <string name="error_open_url">Nepodařilo se otevřít adresu URL v prohlížeči</string>
     <!-- OTA section -->
     <string name="android_version">Verze Androidu: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
-    <string name="evolution_version">Verze EvolutionX: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Verze CherishOS: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
     <string name="security_patch_level">Úroveň bezpečnostní opravy: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Zkontrolovat aktualizace</string>
     <string name="last_successful_check_for_update">Naposledy vyhledány aktualizace v: %1$s</string>
@@ -141,6 +141,6 @@
     <string name="advisory_notice_title">Doporučení</string>
     <string name="advisory_notice_content">- Doporučuje se, aby uživatelé ke stažení aktualizací použili Wi-Fi, kdykoli je to možné. Pokud si přejete používat datové připojení, mějte prosím na paměti, že za stahování dat přes mobilní síť (i v prostředí roamingu) může být účtován poplatek - zkontrolujte u poskytovatele sítě, pokud máte nějaké poplatky.</string>
     <string name="update_size">Velikost aktualizace: %1$s</string>
-    <string name="notification">Pro vaše zařízení je k dispozici nová aktualizace Evolution X!</string>
+    <string name="notification">Pro vaše zařízení je k dispozici nová aktualizace CherishOS!</string>
     <string name="download_over_mobiledata_warning">Za stahování aktualizací přes mobilní síť, měřené Wi-Fi nebo během roamingu mohou být účtovány poplatky.</string>
 </resources>

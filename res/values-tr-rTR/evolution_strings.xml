@@ -127,7 +127,7 @@ Lütfen yapıyı web sitemizden indirin, kurtarma modunda yeniden başlatın ve 
     <string name="error_open_url">Bağlantıyı tarayıcıda açma başarısız oldu</string>
     <!-- OTA section -->
     <string name="android_version">Android sürümü: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
-    <string name="evolution_version">Evolution X sürümü: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">CherishOS sürümü: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
     <string name="security_patch_level">Güvenlik yaması düzeyi: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Güncellemeleri denetle</string>
     <string name="last_successful_check_for_update">Güncelleme için son kontrol: %1$s</string>
@@ -137,6 +137,6 @@ Lütfen yapıyı web sitemizden indirin, kurtarma modunda yeniden başlatın ve 
     <string name="advisory_notice_title">Danışma bildirimi</string>
     <string name="advisory_notice_content">- Kullanıcıların güncellemeleri indirmek için mümkün olan her yerde Wi-Fi kullanmaları önerilir. Hücresel Mobil bağlantısını kullanmak istiyorsanız, lütfen bir Hücresel Mobil Ağ üzerinden veri indirmenin (Dolaşım ortamında olduğu zamanlar dahil) ek ücrete tabi olabileceğini unutmayın - herhangi bir endişeniz varsa Ağ Sağlayıcınıza danışın.</string>
     <string name="update_size">Güncelleme boyutu: %1$s</string>
-    <string name="notification">Cihazınız için yeni bir Evolution X güncellemesi mevcut!</string>
+    <string name="notification">Cihazınız için yeni bir CherishOS güncellemesi mevcut!</string>
     <string name="download_over_mobiledata_warning">Güncellemeleri bir mobil ağ, ölçülü Wi-Fi üzerinden veya dolaşımdayken indirmek ek ücretlere neden olabilir.</string>
 </resources>

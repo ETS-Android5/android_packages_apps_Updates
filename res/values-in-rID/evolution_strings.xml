@@ -122,7 +122,7 @@
     <string name="error_open_url">Gagal membuka tautan di peramban</string>
     <!-- OTA section -->
     <string name="android_version">Versi Android: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
-    <string name="evolution_version">Versi Evolution X: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Versi CherishOS: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
     <string name="security_patch_level">Tingkat level patch keamanan: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Periksa pembaruan</string>
     <string name="last_successful_check_for_update">Terakhir diperiksa untuk pembaruan pada: %1$s</string>
@@ -132,6 +132,6 @@
     <string name="advisory_notice_title">Pemberitahuan penasihat</string>
     <string name="advisory_notice_content">- Pengguna disarankan menggunakan Wi-Fi jika memungkinkan untuk mengunduh pembaruan. Jika Anda ingin menggunakan koneksi Jaringan Seluler, harap perhatikan bahwa mengunduh data melalui Jaringan Seluler (termasuk saat berada di lingkungan Roaming), dapat menimbulkan biaya tambahan - hubungi Penyedia Jaringan Anda jika Anda memiliki masalah.</string>
     <string name="update_size">Ukuran pembaruan: %1$s</string>
-    <string name="notification">Ada pembaruan Evolution X baru tersedia untuk perangkat Anda!</string>
+    <string name="notification">Ada pembaruan CherishOS baru tersedia untuk perangkat Anda!</string>
     <string name="download_over_mobiledata_warning">Mengunduh pembaruan melalui jaringan seluler, Wi-Fi terukur, atau saat roaming dapat menyebabkan biaya tambahan.</string>
 </resources>

@@ -122,7 +122,7 @@
     <string name="error_open_url">在瀏覽器中打開 URL 失敗</string>
     <!-- OTA section -->
     <string name="android_version">Android 版本： <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
-    <string name="evolution_version">Evolution X 版本： <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">CherishOS 版本： <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
     <string name="security_patch_level">安全補丁等級： <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">檢查更新</string>
     <string name="last_successful_check_for_update">上次檢查更新在: %1$s</string>
@@ -132,6 +132,6 @@
     <string name="advisory_notice_title">諮詢通知</string>
     <string name="advisory_notice_content">- 建議用戶使用WiFi下載更新。 如果你想使用行動網路，請注意(包括漫遊中使用)數據傳輸， 可能會產生額外費用 - 請聯絡你的網路供應商如果你有任何問題。</string>
     <string name="update_size">檔案大小：%1$s</string>
-    <string name="notification">你的設備有新版 Evolution X 可用！</string>
+    <string name="notification">你的設備有新版 CherishOS 可用！</string>
     <string name="download_over_mobiledata_warning">下載更新檔案通過行動網路、按量計費WiFi或漫遊數據可能會產生額外費用</string>
 </resources>

@@ -125,7 +125,7 @@
     <string name="error_open_url">Falha ao abrir o URL no navegador</string>
     <!-- OTA section -->
     <string name="android_version">Versão Android: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
-    <string name="evolution_version">Versão Evolution X: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Versão CherishOS: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
     <string name="security_patch_level">Nível do patch de segurança: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Verificar atualizações</string>
     <string name="last_successful_check_for_update">Última verificação em: %1$s</string>
@@ -135,6 +135,6 @@
     <string name="advisory_notice_title">Aviso de consultoria</string>
     <string name="advisory_notice_content">- É recomendado que os utilizadores usem o Wi-Fi sempre que possível para transferir atualizações. Se deseja usar a ligação de dados móveis, tenha em atenção que pode incorrer em taxas adicionais.</string>
     <string name="update_size">Tamanho da atualização: %1$s</string>
-    <string name="notification">Há uma nova atualização Evolution X disponível para o seu dispositivo!</string>
+    <string name="notification">Há uma nova atualização CherishOS disponível para o seu dispositivo!</string>
     <string name="download_over_mobiledata_warning">Transferir de atualizações com dados móveis, Wi-Fi limitado ou em roaming pode causar taxas adicionais.</string>
 </resources>

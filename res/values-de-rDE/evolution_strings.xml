@@ -125,7 +125,7 @@
     <string name="error_open_url">Fehler beim Öffnen der URL im Browser</string>
     <!-- OTA section -->
     <string name="android_version">Android Version: <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
-    <string name="evolution_version">Evolution X Version: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Cherish Version: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
     <string name="security_patch_level">Sicherheits-Patch-Level: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Nach Update suchen</string>
     <string name="last_successful_check_for_update">Zuletzt auf Update überprüft am: %1$s</string>
@@ -135,6 +135,6 @@
     <string name="advisory_notice_title">Mitteilung</string>
     <string name="advisory_notice_content">- Es wird empfohlen, Wlan zu verwenden, wo immer möglich, um Updates herunterzuladen. Wenn Sie die Mobilfunkverbindung verwenden (einschließlich Roaming), kann das mit zusätzlichen Kosten verbunden sein - fragen Sie bei Ihrem Netzbetreiber, falls Sie irgendwelche Bedenken haben.</string>
     <string name="update_size">Update Größe: %1$s</string>
-    <string name="notification">Es gibt ein neues Evolution X Update für dein Gerät!</string>
+    <string name="notification">Es gibt ein neues CherishOS Update für dein Gerät!</string>
     <string name="download_over_mobiledata_warning">Das Herunterladen von Updates über ein Mobilfunknetz, kostenpflichtiges Wlan oder bei Roaming kann zusätzliche Kosten verursachen.</string>
 </resources>

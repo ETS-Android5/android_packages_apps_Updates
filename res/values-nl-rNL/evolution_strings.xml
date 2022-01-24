@@ -125,7 +125,7 @@
     <string name="error_open_url">Fout bij het openen van URL in browser</string>
     <!-- OTA section -->
     <string name="android_version">Android versie: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
-    <string name="evolution_version">Evolution X versie: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">CherishOS versie: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
     <string name="security_patch_level">Beveiligings patch niveau: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Controleren op updates</string>
     <string name="last_successful_check_for_update">Laatst gecontroleerd op update op: %1$s</string>
@@ -135,6 +135,6 @@
     <string name="advisory_notice_title">Adviesbericht</string>
     <string name="advisory_notice_content">- Het is aanbevolen dat gebruikers gebruik maken van wifi waar mogelijk om updates te downloaden. Als u gebruik wilt maken van een mobiele verbinding, houd er rekening mee dat gegevens worden gedownload via een mobiel netwerk (ook in een roaming omgeving), extra kosten met zich mee kunnen brengen - controleer bij uw Internet Provider als u problemen heeft.</string>
     <string name="update_size">Updategrootte: %1$s</string>
-    <string name="notification">Er is een nieuwe Evolution X update beschikbaar voor je apparaat!</string>
+    <string name="notification">Er is een nieuwe CherishOS update beschikbaar voor je apparaat!</string>
     <string name="download_over_mobiledata_warning">Het downloaden van updates over een mobiel netwerk, gemeten Wi-Fi, of tijdens roaming kunnen extra kosten met zich meebrengen.</string>
 </resources>
