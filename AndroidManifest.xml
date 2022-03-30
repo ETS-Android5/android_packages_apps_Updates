@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="org.evolution.ota"
-    android:versionCode="1">
+    android:versionCode="200"
+    android:versionName="2.0.0">
 
     <uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -11,6 +12,7 @@
     <uses-permission android:name="android.permission.REBOOT" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.RECOVERY" />
+	<uses-permission android:name="android.permission.START_ACTIVITIES_FROM_BACKGROUND" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />

@@ -35,13 +35,13 @@ public final class Constants {
     static final int AUTO_UPDATES_CHECK_INTERVAL_DAILY = 1;
     static final int AUTO_UPDATES_CHECK_INTERVAL_WEEKLY = 2;
     static final int AUTO_UPDATES_CHECK_INTERVAL_MONTHLY = 3;
-    static final String PROP_AB_DEVICE = "ro.build.ab_update";
-    static final String PROP_DEVICE = "ro.cherish.device";
-    static final String PROP_BUILD_VERSION = "ro.cherish.version";
-    static final String PROP_VERSION_CODE = "ro.ota.version_code";
-    static final String OTA_URL = "https://raw.githubusercontent.com/CherishOS-Devices/OTA/twelve/builds/%s.json";
-    static final String DOWNLOAD_WEBPAGE_URL = "https://raw.githubusercontent.com/CherishOS-Devices/OTA/twelve/changelogs/%s/%s.txt";
+    public static final String PROP_AB_DEVICE = "ro.build.ab_update";
+    public static final String PROP_DEVICE = "ro.cherish.device";
+    public static final String PROP_BUILD_VERSION = "ro.cherish.version";
+    public static final String PROP_VERSION_CODE = "ro.cherish.ota.version_code";
+    public static final String OTA_URL = "https://raw.githubusercontent.com/CherishOS-Devices/OTA/twelve/builds/%s.json";
+    public static final String DOWNLOAD_WEBPAGE_URL = "https://raw.githubusercontent.com/CherishOS-Devices/OTA/twelve/changelogs/%s/%s.txt";
     public static final String DOWNLOAD_PATH = "/data/system_updates/";
-    static final String EXPORT_PATH = "Cherish-Updates/";
+    public static final String EXPORT_PATH = "Cherish-Updates/";
     public static  String fileName = "";
 }
