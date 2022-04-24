@@ -148,4 +148,7 @@
     <string name="update_size">Update size: %1$s</string>
     <string name="notification">There is a new Cherish update available for your device!</string>
     <string name="download_over_mobiledata_warning">Downloading updates over a cellular network, metered Wi-Fi, or while roaming may cause additional charges.</string>
+    <string name="info_dialog_title">Did you know?</string>
+    <string name="info_dialog_message">CherishOS updates are full installation packages. That means you can always install only the latest update, even if you skipped some in between!</string>
+    <string name="info_dialog_ok">Thanks for the info!</string>
 </resources>

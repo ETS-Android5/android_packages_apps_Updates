@@ -445,11 +445,29 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
                 .setMessage(mActivity.getString(resId, update.getName(),
                         mActivity.getString(android.R.string.ok)) + extraMessage)
                 .setPositiveButton(android.R.string.ok,
-                        (dialog, which) -> Utils.triggerUpdate(mActivity, downloadId))
+                        (dialog, which) -> {
+                            Utils.triggerUpdate(mActivity, downloadId);
+                            maybeShowInfoDialog();
+                        })
                 .setNegativeButton(android.R.string.cancel, null);
     }
 
-    private AlertDialog.Builder getCancelInstallationDialog() {
+    private void maybeShowInfoDialog() {
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(mActivity);
+        boolean alreadySeen = preferences.getBoolean(Constants.HAS_SEEN_INFO_DIALOG, false);
+        if (alreadySeen) {
+            return;
+        }
+        new AlertDialog.Builder(mActivity)
+                .setTitle(R.string.info_dialog_title)
+                .setMessage(R.string.info_dialog_message)
+                .setPositiveButton(R.string.info_dialog_ok, (dialog, which) -> preferences.edit()
+                        .putBoolean(Constants.HAS_SEEN_INFO_DIALOG, true)
+                        .apply())
+                .show();
+    }
+
+	private AlertDialog.Builder getCancelInstallationDialog() {
         return new AlertDialog.Builder(mActivity, R.style.AppTheme_AlertDialogStyle)
                 .setMessage(R.string.cancel_installation_dialog_message)
                 .setPositiveButton(android.R.string.ok,
